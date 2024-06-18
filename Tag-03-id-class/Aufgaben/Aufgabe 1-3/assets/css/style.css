@@ -1,0 +1,21 @@
+
+h1{
+    display: inline;
+}
+
+article{
+    display: inline;
+}
+
+h1{
+    color: #00796b;
+    font-size: 3em;
+}
+
+h1:hover{
+    color: #4fc3f7;
+}
+
+.pseudo-section__list-item::before{
+    content:url(../icons/check.png);
+}

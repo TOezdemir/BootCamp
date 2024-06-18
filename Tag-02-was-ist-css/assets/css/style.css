@@ -1,0 +1,67 @@
+
+h1{
+    color: cadetblue;
+    font-size: 100px;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: darkmagenta;
+    background-color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section>ul>li>span{
+    color: tomato;
+}
+
+div:nth-of-type(1) a:nth-child(3):active{
+    background-color: yellowgreen
+    color aliceblue;
+}
+
+div:nth-of-type(1){
+    background-color: salmon;
+}
+
+div:nth-of-type(1) a:nth-child(2){
+    color:chartreuse;
+}
+
+section:nth-of-type(2){
+    background-color: aqua;
+}
+
+section:nth-of-type(2) p:first-of-type{
+    background-color: deeppink;
+    color: aliceblue;
+}
+
+section:nth-of-type(2) p:nth-child(4){
+    background-color: orangered;
+    color: darkblue;
+}
+
+a{
+    display: block;
+}
+
+article p{
+    display: inline;
+}
+
+section:nth-of-type(2){
+    display: inline-block;
+}
+
+div:nth-of-type(2){
+    width: 100px;
+    height: 100px;
+    padding: 10px 40px 60px 0px;
+    border: 15px solid;
+    margin: 30px;
+    background-color: burlywood;
+}

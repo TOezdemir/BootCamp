@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selektoren</title>
+
+    <style>
+
+        header{
+            text-align: center;
+            background: lightskyblue;
+        }
+
+        header h1,
+        header p{
+            color: white;
+        }
+
+        h3,
+        a {
+            color: blueviolet;
+        }
+
+        h4~p{
+            color: darkblue;
+        }
+        
+        section>p{
+            background-color: aqua;
+        }
+        
+        section>article{
+            background-color: lightgreen;
+        }
+
+        h5+p{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selektoren</h1>
+        <p>Lorem ipsum dolor sit amet.
+        </p>
+    </header>
+
+    <div>
+        <h3>Gruppierte Selektoren - getrennt durch ein ","</h3>
+        <a href="#">Self HTML</a>
+        <a href="#">Mediavent</a>
+    </div>
+
+    <div>
+       <h4>Indirekter Nachbar ~ Selektor</h4>
+       <p>Lorem ipsum dolor sit amet.</p>
+       <p>Lorem ipsum dolor sit amet.</p> 
+    </div>
+
+    <section>
+        <h5>Kind > Selektor</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quo.</p>
+        <article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, deleniti?</p>
+        </article>
+    </section>
+
+    <div>
+        <h5>Direkter Nachbar + Selektor</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, atque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nulla!</p>
+    </div>
+
+</body>
+</html>
