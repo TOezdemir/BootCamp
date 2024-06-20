@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em und rem</title>
+
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+
+        body{
+            font-size: 1.6rem;
+        }
+
+        .vorwort {
+            margin: 2em 0;
+            width: 50%;
+            background-color: rgba(95, 158, 160, 0.234);
+            padding: 2em;
+            border: 2px solid black;
+            border-style: dashed;
+        }
+
+        .vorwort>p{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p{
+            font-size: 1.6rem;
+        }
+        
+        .container{
+            font-size: 1.6rem;
+        }
+        
+        .container .heading{
+            font-size: 2em;
+        }
+
+        .container .text{
+            font-size: 1em;
+        }
+
+        .button{
+            padding: 1em 2em;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="vorwort">
+        <p>Wenn wir unserem html-Element eine Schriftgröße von 62,5% geben, verändert sie die Basis-Schriftgröße,
+            auf der alle relativen Einheiten wie em und rem basieren.
+        </p>
+    </div>
+
+    <h2>Verwende rem "root em" für konsistente Schriftgrößen</h2>
+    <p>Die Verwendung von rem für Schriftgrößen sorgt für Konsistenz, da sie sich immer auf die Schriftgröße
+        des html bezieht. Vorteil: mach es einfacher, die Schriftgröße im gesamten Dokument einheitlich zu steuern.
+    </p>
+
+    <h1>Ich bin 3 rem groß = 3 * 10px = 30px</h1>
+    <p>Ich bin 1,6 rem groß = 1,6 * 10px = 16px</p>
+
+    <hr>
+
+    <h2>Verwende em für relative Größen innerhalb von Komponenten</h2>
+    <p>Verwende em, wenn du Schriftgrößen oder Abstände innerhalb eines bestimmten Containers oder Komponenten
+        relativ zur aktuellen Schriftgröße dieses Containers setzen möchtest. Dies ist besonders nützlich bei 
+        modularen oder wiederverwendbaren Komponenten.
+    </p>
+    <div class="container">
+        <h2 class="heading">Ich bin 2 em groß = 2 * 16px = 32px</h2>
+        <p class="text">Ich bin 1 em groß = 1 * 16px = 16px</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Units</title>
+</head>
+
+<body>
+    
+    <article>
+        <h1>Units</h1>
+        <h2>Wannt benutze ich html und wann :root im CSS?</h2>
+        <p>
+            Das Wurzelelement "html" selbst wird normalerweise nicht direkt für die Anwendung von Stilen verwendet,
+            sondern stattdessen für das "body" Element oder andere spezifischere Selektoren. Das :root-Pseudoelement
+            ist jedoch nützlich, um globale Variabeln zu deklarieren und eine konsistente Verwendung von Farben,
+            Schriftarten und anderen Stileigentschaften sicherzustellen.
+        </p>
+    </article>
+
+    <br>
+
+    <div>
+        <p>Absolute Einheit (px)</p>
+        <div class="box"></div>
+    </div>
+    <br>
+
+    <p>Relative Einheit (%)</p>
+    <div class="relative__container-percent">
+        <div class="container"></div>
+            <img src="./assets/img/cool.jpeg" alt="Otaku Cool"> 
+    </div>
+
+    <br>
+    
+    <p>Viewport-Einheit (vh & vw)</p>
+    <p>Viewport Einheit - 50% der Breite & Höhe des Viewports</p>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+
+    <br>
+
+    <div class="em__font-size">
+        <p>Relative Einheiten (em und rem):</p>
+
+        <p class="normal">Normale Schriftgröße - 16px</p>
+        <p class="larger">Vergrößerte Schriftgröße - 1,5em = 24px</p>
+        <p class="even-larger">Noch größere Schriftgröße - 2rem</p>
+    </div>
+
+    <div class="content">
+        <p class="title">Clamp Einheit</p>
+        <p class="text"><span>Ich bin ein Text und schrumpfe bzw. skaliere bis zu einem min / max Wert.</span><br>
+        Die CSS-Funktion clamp() begrenzt einen Mittelwert innerhalb eines Wertebereichs zwischen einer definierten
+        Mindest- und einer maximalen Begrenzung.
+        Die Funktion hat drei Parameter: einen Mindestwert, einen bevorzugten Wert und einen maximal zulässigen Wert.
+        </p>
+    </div>
+
+</body>
+
+</html>
