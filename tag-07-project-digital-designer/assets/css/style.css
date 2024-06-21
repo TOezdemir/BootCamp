@@ -1,0 +1,151 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DidactGothic;
+    src: url(../fonts/Didact_Gothic/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: FjallaOne;
+    src: url(../fonts/Fjalla_One/FjallaOne-Regular.ttf);
+}
+
+.paralax{
+    position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+}
+
+/* Background */
+
+section:nth-of-type(2){
+    background-image: url("../imgs/portfolio2.jpg");
+}
+section:nth-of-type(3){
+    background-image: url("../imgs/portfolio3.png");
+}
+section:nth-of-type(4){
+    background-image: url("../imgs/portfolio4.jpg");
+}
+section:nth-of-type(5){
+    background-image: url("../imgs/portfolio5.png");
+}
+/* Background end */
+
+section:nth-of-type(6) {
+    background-color: black;
+    color: white;
+    height: 1000px;
+    width: 100%;
+}
+
+/* Start div container */
+
+div{
+    padding: 50px;
+}
+
+.orbis{
+    color: white;
+}
+
+.galitos{
+    color: white;
+}
+
+.rollr{
+    color: rgb(27, 27, 27);
+}
+
+
+.tretto{
+    color: rgb(27, 27, 27);
+}
+
+/* End div container */
+
+button{
+    font-family: FjallaOne;
+    font-size: 18px;
+    font-weight: light;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background: none;
+}
+
+/* Start hover */
+
+.btndrk:hover + .nmbrdrk{
+    color: black;
+    background-color: white;
+}
+
+.nmbrdrk:hover{
+    color: black;
+    background-color: white;
+}
+
+.btnlght:hover + .nmbrlght{
+    color: white;
+    background-color: black;
+}
+
+.nmbrlght:hover{ 
+    color: white;
+    background-color: black;
+}
+
+/* End hover */
+
+img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Start typeface styling */
+
+h1{ font-family: WorkSans;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.DigitalDesinger{
+    text-align: center;
+}
+
+h2{ font-family: DidactGothic;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+h3{ font-family: WorkSans;
+    font-size: 160px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h4{ font-family: FjallaOne;
+    font-size: 180px;
+    text-align: right;
+    border: 10%;
+    margin: 10%;
+    opacity: 0.6;
+}
