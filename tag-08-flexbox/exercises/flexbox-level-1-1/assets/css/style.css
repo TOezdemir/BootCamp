@@ -1,0 +1,40 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 5px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+body{
+    background-image: url("../img/marek-piwnicki-WfoqB7nv0QE-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration:none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
